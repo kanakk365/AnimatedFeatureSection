@@ -34,14 +34,14 @@ function Slide() {
         {" "}
         <h1 className="text-base  font-semibold text-neutral-100 mb-4 flex items-center gap-1">
           <LogsIcon size={17} />
-          Live Collaboration
+          Dynamic Content
         </h1>
         <div>
           <h2 className=" text-sm text-neutral-100  mb-1">
-            Real-time collaboration
+            Infinite scroll animation
           </h2>{" "}
           <p className="text-sm text-neutral-400">
-            sync data across users instantly
+            Smooth continuous movement effects
           </p>
         </div>
       </div>

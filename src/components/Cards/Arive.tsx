@@ -9,18 +9,6 @@ function Arive() {
     <>
       <AnimatePresence>
         <motion.div
-          initial={{
-            opacity: 0,
-            filter: "blur(10px)",
-          }}
-          animate={{
-            opacity: 1,
-            filter: "blur(0px)",
-          }}
-          exit={{
-            opacity: 0,
-            filter: "blur(10px)",
-          }}
           transition={{
             duration: 0.3,
             ease: "easeInOut",
@@ -33,11 +21,11 @@ function Arive() {
         >
           {" "}
           <h1 className="text-sm font-semibold text-neutral-100">
-            Organization UI Components
+            UI Component Library
           </h1>
           <p className="text-sm text-neutral-400 mt-2">
-            Clerk&apos;s UI components add turn-key simplicity to complex
-            Organization management tasks.
+            Beautifully designed components with smooth animations and modern
+            styling for your next project.
           </p>
           <div className="flex items-center w-full mx-auto gap-4 ">
             <button
@@ -47,7 +35,7 @@ function Arive() {
                 "px-2 py-1 rounded-md border border-neutral-700"
               )}
             >
-              Clerk
+              Components
               <X size={10} className="text-neutral-500" />
             </button>
           </div>
@@ -78,13 +66,13 @@ function Arive() {
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xs font-bold text-neutral-100">
-                    Aceternity UI Components
+                    Interactive Elements
                   </p>
                   <p className="text-xs mt-1 text-neutral-400">
-                    A Collection of UI components
+                    Responsive user interface components
                   </p>
                 </div>
-              </div>
+              </div>{" "}
               <div className="flex gap-2 p-4">
                 {" "}
                 <div className="h-7 w-7 flex-shrink-0 bg-neutral-800 shadow-[0_-2px_4px_rgba(255,255,255,0.1),0_-8px_16px_rgba(255,255,255,0.05),0_-16px_32px_rgba(255,255,255,0.02)] rounded-md flex items-center justify-center border border-neutral-700">
@@ -92,13 +80,13 @@ function Arive() {
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xs font-bold text-neutral-100">
-                    Aceternity UI Components
+                    Performance Optimized
                   </p>
                   <p className="text-xs mt-1 text-neutral-400">
-                    A Collection of UI components
+                    Fast loading and smooth animations
                   </p>
                 </div>
-              </div>
+              </div>{" "}
               <div className="flex gap-2 p-4">
                 {" "}
                 <div className="h-7 w-7 flex-shrink-0 bg-neutral-800 shadow-[0_-2px_4px_rgba(255,255,255,0.1),0_-8px_16px_rgba(255,255,255,0.05),0_-16px_32px_rgba(255,255,255,0.02)] rounded-md flex items-center justify-center border border-neutral-700">
@@ -106,10 +94,10 @@ function Arive() {
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xs font-bold text-neutral-100">
-                    Aceternity UI Components
+                    Customizable Design
                   </p>
                   <p className="text-xs mt-1 text-neutral-400">
-                    A Collection of UI components
+                    Flexible theming and styling options
                   </p>
                 </div>
               </div>

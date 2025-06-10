@@ -1,13 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import { motion } from "motion/react";
-import {
-  BarChart3,
-  Users,
-  Calendar,
-  Users2,
-  Activity,
-} from "lucide-react";
+import { BarChart3, Users, Calendar, Users2, Activity } from "lucide-react";
 
 const Card = ({
   bgColor,
@@ -45,35 +39,35 @@ const Card = ({
       };
   const cardContent = [
     {
-      title: "Analytics Dashboard",
-      description: "Real-time data visualization and insights",
+      title: "Feature Alpha",
+      description: "Primary functionality with core benefits",
       badge: "New",
-      metric: "94%",
-      metricLabel: "Accuracy",
+      metric: "98%",
+      metricLabel: "Success",
       icon: BarChart3,
     },
     {
-      title: "User Management",
-      description: "Manage users and permissions",
+      title: "Feature Beta",
+      description: "Secondary feature for enhanced experience",
       badge: "Active",
-      metric: "1.2k",
-      metricLabel: "Users",
+      metric: "2.5k",
+      metricLabel: "Active",
       icon: Users,
     },
     {
-      title: "Project Planning",
-      description: "Plan and track project progress",
+      title: "Feature Gamma",
+      description: "Advanced functionality for power users",
       badge: "Updated",
-      metric: "12",
-      metricLabel: "Projects",
+      metric: "24",
+      metricLabel: "Items",
       icon: Calendar,
     },
     {
-      title: "Team Collaboration",
-      description: "Connect and work together seamlessly",
+      title: "Feature Delta",
+      description: "Collaborative tools for team productivity",
       badge: "Popular",
-      metric: "85%",
-      metricLabel: "Efficiency",
+      metric: "92%",
+      metricLabel: "Rating",
       icon: Users2,
     },
   ];
@@ -126,7 +120,7 @@ function Long() {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="relative bg-neutral-900 h-[23rem] w-[40rem] rounded-lg shadow-[0_-2px_4px_rgba(255,255,255,0.1),0_-8px_16px_rgba(255,255,255,0.05),0_-16px_32px_rgba(255,255,255,0.02)] overflow-hidden"
+      className="relative bg-neutral-900 h-[23rem] w-[42rem] rounded-lg shadow-[0_-2px_4px_rgba(255,255,255,0.1),0_-8px_16px_rgba(255,255,255,0.05),0_-16px_32px_rgba(255,255,255,0.02)] overflow-hidden"
     >
       <motion.div
         initial={{
@@ -144,13 +138,15 @@ function Long() {
             isHovered={isHovered}
           />
         ))}
-      </motion.div>
+      </motion.div>{" "}
       <div className="h-[25%] absolute bottom-0 m w-full bg-neutral-900 p-1">
         <div className="h-full w-full bg-neutral-800 rounded-md flex flex-col justify-center items-center mx-auto ">
           <div className="flex gap-2 font-semibold ">
-            <Activity size={20} /> Dummy Data{" "}
+            <Activity size={20} /> Sample Data{" "}
           </div>
-          <p className="text-sm text-neutral-400 ">there will be dummy data</p>
+          <p className="text-sm text-neutral-400 ">
+            Interactive component showcase
+          </p>
         </div>
       </div>
     </div>

@@ -173,17 +173,18 @@ function Realtime() {
         }}
       />
       <div className="relative p-6 flex flex-col h-full ">
+        {" "}
         <h1 className="text-base  font-semibold text-neutral-100 mb-4 flex items-center gap-1">
           {" "}
           <MousePointerClick size={17} />
-          Live Collaboration
+          Interactive Demo
         </h1>{" "}
         <div>
           <h2 className=" text-sm text-neutral-100  mb-1">
-            Real-time collaboration
+            Mouse tracking simulation
           </h2>
           <p className="text-sm text-neutral-400">
-            sync data across users instantly
+            Dynamic cursor movement and interactions
           </p>
         </div>{" "}
         <div className="flex-1 mt-2 relative">
@@ -206,7 +207,7 @@ function Realtime() {
               variants={nameTagVariants}
               animate={isHovering ? "hover" : "idle"}
             >
-              Kain{" "}
+              User A{" "}
             </motion.div>
           </motion.div>
           <motion.div
@@ -223,13 +224,13 @@ function Realtime() {
               strokeWidth={1}
               size={24}
               className="text-neutral-500"
-            />
+            />{" "}
             <motion.div
               className="absolute -top-8 left-6 bg-neutral-800 text-neutral-100 px-2 py-1 rounded-lg text-xs whitespace-nowrap border border-neutral-700"
               variants={nameTagVariants}
               animate={isHovering ? "hover" : "idle"}
             >
-              May
+              User B
             </motion.div>
           </motion.div>
         </div>
