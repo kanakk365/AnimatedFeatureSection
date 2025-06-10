@@ -206,7 +206,7 @@ function Realtime() {
               variants={nameTagVariants}
               animate={isHovering ? "hover" : "idle"}
             >
-              Kanak{" "}
+              Kain{" "}
             </motion.div>
           </motion.div>
           <motion.div
@@ -229,7 +229,7 @@ function Realtime() {
               variants={nameTagVariants}
               animate={isHovering ? "hover" : "idle"}
             >
-              Astha
+              May
             </motion.div>
           </motion.div>
         </div>
