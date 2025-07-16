@@ -1,6 +1,4 @@
 
-import WaveAnimation from "@/components/Animations/Wave";
-import CardStack from "@/components/Cards/CardStack";
 import FeatureSection from "@/components/Section/FeatureSection";
 import Footer from "@/components/Section/Footer";
 import HeroSection from "@/components/Section/Hero";

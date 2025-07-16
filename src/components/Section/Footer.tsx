@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import WaveAnimation from "../Animations/Wave";
-import Link from "next/link";
+
 
 const Footer: React.FC = () => {
   return (
